@@ -52,6 +52,8 @@ CREATE TABLE `Measuring_Point_header_data`
   `MeasurementTransferIsSupported`             tinyint(1) DEFAULT NULL,
   `Equipment`                                  varchar(18) DEFAULT NULL,
   `FunctionalLocation`                         varchar(30) DEFAULT NULL,
+  `CreatedDateTime`                            varchar(20) DEFAULT NULL,
+  `LastModifiedDateTime`                       varchar(20) DEFAULT NULL,
     PRIMARY KEY (`MeasuringPoint`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
