@@ -56,6 +56,7 @@ CREATE TABLE `Measuring_Point_header_data`
   `Project`                                    varchar(12) DEFAULT NULL,
   `WBSElement`                                 varchar(24) DEFAULT NULL,
   `SuperiorProject`                            varchar(12) DEFAULT NULL,
+  `SuperiorWBSElement`                         varchar(24) DEFAULT NULL,
   `CreatedDateTime`                            varchar(20) DEFAULT NULL,
   `LastModifiedDateTime`                       varchar(20) DEFAULT NULL,
     PRIMARY KEY (`MeasuringPoint`)
